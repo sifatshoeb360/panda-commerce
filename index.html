@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda | commerce</title>
+    <!-- font awesome file css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- maincss css file  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap java script file -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- navigation start -->
+    <header>
+        <nav class="fixed-top navbar navbar-expand-lg navbar-light my1s-bg shadow-sm">
+            <div class="container-xxl">
+                <a class="navbar-brand  fw-bold fs-4" href="#"><img src="./images/logo.png" alt=""></a>
+                <button class="navbar-toggler my2nd-bg" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-light"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#backpack">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn mybtn text-light" role="button" href="#subscribe">Subscibe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navigation end -->
+    <!-- hero section start -->
+    <section id="hero">
+        <div class="container-xxl row mx-auto">
+            <!-- carousel start -->
+            <div id="carouselIndicators" class="carousel slide p-0" data-bs-ride="carousel" data-bs-touch="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
+                        class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+                        class="bg-danger"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+                        class="bg-danger"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <!-- hero slide start 1 -->
+                    <div class="carousel-item active my1s-bg hero_slide shadow-sm overflow-hidden p-4 ">
+                        <div class="row pb-5 pb-md-0">
+                            <div class="col-md-6 d-flex justify-content-md-end justify-content-center">
+                                <img src="./images/banner-images/tv.png" alt="">
+                            </div>
+                            <div class="col-md-6 order-md-first d-flex align-items-center">
+                                <div class="hero_text ps-5">
+                                    <h1 class="fs-1 fw-bold">Mi LED TV 4A PRO 32</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptate
+                                        incidunt minima
+                                        voluptatibus veniam repellat explicabo obcaecati repellendus officia itaque.</p>
+                                    <h2 class="price-color">$1289</h2>
+                                    <a href="#" class="mybtn btn btn-lg">Buy now <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- hero slide end -->
+                    <!-- hero slide start 2-->
+                    <div class="carousel-item  my1s-bg hero_slide shadow-sm overflow-hidden p-4 ">
+                        <div class="row pb-5 pb-md-0">
+                            <div class="col-md-6 d-flex justify-content-md-end justify-content-center">
+                                <img src="./images/banner-images/headphone.png" alt="">
+                            </div>
+                            <div class="col-md-6 order-md-first d-flex align-items-center">
+                                <div class="hero_text ps-5">
+                                    <h1 class="fs-1 fw-bold">Supper dupper headphone p47 pro</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptate
+                                        incidunt minima
+                                        voluptatibus veniam repellat explicabo obcaecati repellendus officia itaque.</p>
+                                    <h2 class="price-color">$1289</h2>
+                                    <a href="#" class="mybtn btn btn-lg">Buy now <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- hero slide end -->
+                    <!-- hero slide start 3-->
+                    <div class="carousel-item my1s-bg hero_slide shadow-sm overflow-hidden p-4 ">
+                        <div class="row pb-5 pb-md-0">
+                            <div class="col-md-6 d-flex justify-content-md-end justify-content-center">
+                                <img src="./images/banner-images/xbox.png" alt="">
+                            </div>
+                            <div class="col-md-6 order-md-first d-flex align-items-center">
+                                <div class="hero_text ps-5">
+                                    <h1 class="fs-1 fw-bold">Mi xbox for live gaming experience</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptate
+                                        incidunt minima
+                                        voluptatibus veniam repellat explicabo obcaecati repellendus officia itaque.</p>
+                                    <h2 class="price-color">$1289</h2>
+                                    <a href="#" class="mybtn btn btn-lg">Buy now <i class="fas fa-arrow-right "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- hero slide end -->
+
+                </div>
+            </div>
+            <!-- carousel end-->
+        </div>
+    </section>
+    <!-- hero section end -->
+    <!-- Categories section start  -->
+    <section id="categoriez">
+        <div class="row container-xxl mx-auto">
+            <!-- categories watch -->
+            <div class="col-md-4 mb-4">
+                <div class="pop d-flex justify-content-between align-items-center py-2 px-4 rounded categories_box1">
+                    <p class="text-white fs-1">Watch</p>
+                    <img src="./images/categories/watch.png" alt="">
+                </div>
+            </div>
+            <!-- categories bagpack-->
+            <div class="col-md-4 mb-4">
+                <div class="pop d-flex justify-content-between align-items-center py-2 px-4 rounded categories_box2">
+                    <p class="text-white fs-1">Watch</p>
+                    <img src="./images/categories/bag.png" alt="">
+                </div>
+            </div>
+            <!-- categories shoes-->
+            <div class="col-md-4 mb-4">
+                <div class="pop d-flex justify-content-between align-items-center py-2 px-4 rounded categories_box3">
+                    <p class="text-white fs-1">Shoes</p>
+                    <img src="./images/categories/shoes.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories section end  -->
+    <!-- Categories-item box section end  -->
+    <section class="bg-light py-5">
+        <!-- shoes section start -->
+        <div id="shoes" class="container-xxl mx-auto row">
+            <div class="col-6 my-5">
+                <h2>Backpack</h2>
+            </div>
+            <div class="col-6 my-5">
+                <h2 class="text-warning text-end">See all</h2>
+            </div>
+            <!-- box start -->
+            <div class="col-md-4 mb-4">
+                <div class="box bg-white rounded text-center py-4 px-5">
+                    <div class="mb-5 img-wraper overflow-hidden">
+                        <img src="./images/shoes/shoe-1.png" alt="">
+                    </div>
+                    <h2 class="fw-bold fs-5 mb-4">Reebok Dart Men’s Shoes</h2>
+                    <p class="text-muted fs-6">Some quick example text to build on
+                        the card title.</p>
+                    <h4 class="fs-5 mb-4">$999</h4>
+                    <a href="#" class="btn mybtn mb-4">Buy now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- box end -->
+            <!-- box start -->
+            <div class="col-md-4 mb-4">
+                <div class="box bg-white rounded text-center py-4 px-5">
+                    <div class="mb-5 img-wraper overflow-hidden">
+                        <img src="./images/shoes/shoe-2.png" alt="">
+                    </div>
+                    <h2 class="fw-bold fs-5 mb-4">Reebok Pump</h2>
+                    <p class="text-muted fs-6">Some quick example text to build on
+                        the card title.</p>
+                    <h4 class="fs-5 mb-4">$3299</h4>
+                    <a href="#" class="btn mybtn mb-4">Buy now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- box end -->
+            <!-- box start -->
+            <div class="col-md-4 mb-4">
+                <div class="box bg-white rounded text-center py-4 px-5">
+                    <div class="mb-5 img-wraper overflow-hidden">
+                        <img src="./images/shoes/shoe-3.png" alt="">
+                    </div>
+                    <h2 class="fw-bold fs-5 mb-4">Reebok All Terrain </h2>
+                    <p class="text-muted fs-6">Some quick example text to build on
+                        the card title.</p>
+                    <h4 class="fs-5 mb-4">$1299</h4>
+                    <a href="#" class="btn mybtn mb-4">Buy now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- box end -->
+        </div>
+        <!-- shoes section end -->
+        <!-- backpack section start -->
+        <div id="backpack" class="container-xxl mx-auto row">
+            <div class="col-6 my-5">
+                <h2>Backpack</h2>
+            </div>
+            <div class="col-6 my-5">
+                <h2 class="text-warning text-end">See all</h2>
+            </div>
+            <!-- box start -->
+            <div class="col-md-4 mb-4">
+                <div class="box bg-white rounded text-center py-4 px-5">
+                    <div class="mb-5 img-wraper overflow-hidden">
+                        <img src="./images/bags/bag-1.png" alt="">
+                    </div>
+                    <h2 class="fw-bold fs-5 mb-4">Ison Backpack</h2>
+                    <p class="text-muted fs-6">Some quick example text to build on
+                        the card title.</p>
+                    <h4 class="fs-5 mb-4">$999</h4>
+                    <a href="#" class="btn mybtn mb-4">Buy now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- box end -->
+            <!-- box start -->
+            <div class="col-md-4 mb-4">
+                <div class="box bg-white rounded text-center py-4 px-5">
+                    <div class="mb-5 img-wraper overflow-hidden">
+                        <img src="./images/bags/bag-2.png" alt="">
+                    </div>
+                    <h2 class="fw-bold fs-5 mb-4">Biaowang Backpack </h2>
+                    <p class="text-muted fs-6">Some quick example text to build on
+                        the card title.</p>
+                    <h4 class="fs-5 mb-4">$2999</h4>
+                    <a href="#" class="btn mybtn mb-4">Buy now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- box end -->
+            <!-- box start -->
+            <div class="col-md-4 mb-4">
+                <div class="box bg-white rounded text-center py-4 px-5">
+                    <div class="mb-5 img-wraper overflow-hidden">
+                        <img src="./images/bags/bag-3.png" alt="">
+                    </div>
+                    <h2 class="fw-bold fs-5 mb-4">Dxyizu WS54 Smart </h2>
+                    <p class="text-muted fs-6">Some quick example text to build on
+                        the card title.</p>
+                    <h4 class="fs-5 mb-4">$1399</h4>
+                    <a href="#" class="btn mybtn mb-4">Buy now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- box end -->
+        </div>
+        <!-- backpack section end -->
+    </section>
+    <!-- Categories-item box section end  -->
+    <!-- LET'S STAY IN TOUCH start-->
+    <section id="subscribe">
+        <div class="row container-xl mx-auto my1s-bg subscibe_wraper py-5">
+            <div class="col-md-8 col-xxl-7 mx-auto text-center py-5">
+                <h2 class="fw-bold fs-2">LET'S STAY IN TOUCH</h2>
+                <p class="text-muted fs-4 my-4">Get updates on sales specials and more</p>
+                <div class="d-flex input_box_wrapper overflow-hidden border mb-5">
+                    <input type="text" name="" id="" class="w-100">
+                    <input type="submit" value="Subscribe" class="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- LET'S STAY IN TOUCH end-->
+    <footer>
+     <div class="row container-xxl py-3 mx-auto">
+         <div class="col-md-12 text-center">
+            <p class="text-muted m-auto">©2022 All Right Reserved ||Shoeb Sifat</p>
+         </div>
+     </div>
+    </footer>
+
+</body>
+
+</html>

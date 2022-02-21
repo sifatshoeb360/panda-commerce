@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    transition: 0.5s;
+}
+section,
+header {
+    margin-bottom: 150px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.price-color {
+    color: #ff136f;
+}
+
+.my2nd-bg {
+    background: linear-gradient(#ff589b, #ff136f) !important;
+}
+
+.mybtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(#ff589b, #ff136f);
+    transition: 0.6s !important;
+}
+
+.mybtn:hover {
+    color: #fff;
+    background: linear-gradient(#4289ff, #07f8c3);
+}
+i{
+    margin-left: 5px;
+}
+.my1s-bg {
+    background: #feeae9 !important;
+}
+
+.hero_slide ,.subscibe_wraper{
+    border-radius: 10px;
+}
+
+#carouselIndicators div {
+    padding: 0;
+}
+
+/* hero area  */
+.hero_slide img {
+    width: 453px;
+    height: auto;
+}
+
+/* categories_box */
+.pop{
+    overflow: hidden;
+}
+.pop:hover img{
+    transition: 0.6s;
+    transform: scale(1.2);
+}
+.categories_box1 {
+    transition: 0.6s;
+    background: linear-gradient(#ff9c35, #ffd019);
+    cursor: pointer;
+}
+.categories_box1:hover{
+    background: linear-gradient(#ffd019,#ff9c35);
+}
+
+.categories_box2 {
+    cursor: pointer;
+    transition: 0.6s;
+    background: linear-gradient(#ff589b, #ff136f);
+}
+.categories_box2:hover{
+    background: linear-gradient(#ff136f,#ff589b);
+}
+.categories_box3 {
+    cursor: pointer;
+    transition: 0.6s;
+    background: linear-gradient(#4289ff, #07f8c3);
+}
+.categories_box3:hover{
+    background: linear-gradient(#07f8c3,#4289ff);
+}
+
+.box img {
+    width: 308px;
+    height: auto;
+    transition: 0.6s;
+}
+
+.box img:hover {
+    transform: scale(1.2);
+}
+
+/* subscribe section */
+.input_box_wrapper{
+    border-radius: 10px;
+}
+
+.input_box_wrapper input {
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    color: #ff136f;
+    font-size: 1.2em;
+}
+
+.input_box_wrapper input[type="submit"] {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    background: linear-gradient(#ff589b, #ff136f);
+}
+footer{
+    background: #feeae9;
+}
